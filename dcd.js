@@ -10,7 +10,7 @@ const dcdP = {
   footer: {
     contact1: "+91-88665554851",
     contact2: "+91-88744547774",
-    email: "sometechemail@gmail.com",
+    email: "dreamworks.query@gmail.com",
   },
   home: {
     secondBlock: [

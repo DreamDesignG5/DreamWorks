@@ -21,12 +21,26 @@ export default function Navbar({ children }) {
             <div
               onClick={handleMenu}
               className={
-                "h-10 w-10 bg-gray-100 rounded-full flex flex-col space-y-1 items-end px-2 justify-center"
+                "h-10 w-10 rounded-full flex flex-col  items-center  justify-center"
               }
             >
-              <div className={"w-4 h-0.5 bg-gray-500"}></div>
-              <div className={"w-3.5 h-0.5 bg-gray-500"}></div>
-              <div className={"w-4 h-0.5 bg-gray-500"}></div>
+              <div
+                className={
+                  " flex flex-col  relative items-center  justify-center"
+                }
+              >
+                <div
+                  className={
+                    "w-4 h-0.5 absolute  bg-gray-700 transform rotate-45"
+                  }
+                ></div>
+
+                <div
+                  className={
+                    "w-4 h-0.5 absolute bg-gray-700 transform -rotate-45"
+                  }
+                ></div>
+              </div>
             </div>
           </div>
         </div>
