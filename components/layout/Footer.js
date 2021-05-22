@@ -41,7 +41,9 @@ export default function Footer() {
               <span className={"flex gap-1 flex-wrap"}>
                 E-mail :
                 <div className={"flex flex-col text-trueGray-200"}>
-                  <span>{dcdP.footer.email}</span>
+                  <a href={`mailto:${dcdP.footer.email}`}>
+                    {dcdP.footer.email}
+                  </a>
                 </div>
               </span>
             </div>
